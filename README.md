@@ -1,8 +1,10 @@
 # motoxp
 
+## WARNING:
+I'll say this LOUD and CLEAR: take a **full backup** of the data currently stored for your SD card, as all the *information will be **destroyed*** as result of repartitioning activities
+
 
 ## Mixed storage for my (lovely) Moto X Pure
-
 
 Running out of space with my internal memory? No problem, there is a 64gb sdxc that can help... But, I didn't want to have it fully assigned for internal storage
 
@@ -46,4 +48,13 @@ D:\Android\platform-tools>adb shell sm list-disks adoptable
 disk:179_64
 ```
 
-[source](https://android.stackexchange.com/questions/145457/i-want-to-split-one-microsd-card-into-two-parts-part-adoptable-storage-and-par)
+### Results...
+
+* +14gb of additional storage coming from external memory and assigned for Android usage
+* I basically doubled original phone's storage, to ~30gb, and now my apps can keep (constantly) updating without impacting my activities
+* still a lot of shared/public in my sd card to carry with me all my stuff (roms, music, backups, photos, documents, etc.)
+
+
+![](Screenshot_20180521-094749.png)
+
+[inspiration source](https://android.stackexchange.com/questions/145457/i-want-to-split-one-microsd-card-into-two-parts-part-adoptable-storage-and-par)
