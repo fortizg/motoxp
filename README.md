@@ -1,10 +1,10 @@
 # motoxp
 
 
-## Mixed storage for my moto
+## Mixed storage for my (lovely) Moto X Pure
 
 
-Running out of space with my internal memory? No problem, there is a 64gb sdxc that can help... But, I didn't want to have fully assigned for internal storage
+Running out of space with my internal memory? No problem, there is a 64gb sdxc that can help... But, I didn't want to have it fully assigned for internal storage
 
 ```
 D:\Android\platform-tools>adb devices -l
